@@ -2,7 +2,7 @@ sudo: required
 dist: trusty
 language: python
 python:
-    - "3.6"
+    - "2.7"
 before_install:
     - sudo apt-get install -y python-opengl python-gst0.10 python-enchant python-dev
     - sudo apt-get install -y gstreamer0.10-plugins-good libgl1-mesa-dev-lts-quantal libgles2-mesa-dev-lts-quantal
